@@ -21,7 +21,7 @@ vectordb                # Directory for vector database storage
 data                    # Directory for raw and processed data
 experiments             # Folder containing fine-tuning experiments
 │   ├── finetuner.py    # Fine-tuning script for language models
-│   ├── fodel.pt        #  rained model checkpoint
+│   ├── Model.pt        # Trained model checkpoint
 public                  # Directory for public assets (e.g., documentation, frontend components)
 ```
 
