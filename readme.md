@@ -3,6 +3,10 @@
 ## Overview
 This repository contains an implementation of a RAG based chatbot - built using langchain. The chatbot is guarded with a CustomGuardrails module that uses LLMs as reasoning, LLMs as Validator, and Prompt Engineering techquies to ensure that bot's responses are well grounded and accurate. 
 
+![image](public/example1.png) 
+![image](public/example2.png) 
+
+
 ## Project Structure
 ```
 chatbot                 # main module
