@@ -4,7 +4,8 @@ from transformers import pipeline
 from openai import OpenAI
 import configparser
 
-from chatbot.finetuned_slm import load_model, predict
+## turned off for now!
+# from chatbot.finetuned_slm import load_model, predict
 
 class CustomGuardrail:
     def __init__(self, config_path='config.env'):

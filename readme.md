@@ -42,11 +42,6 @@ To set up the project, follow these steps:
    pip install -r requirements.xt
    ```
 
-3. One Time Run - Setup VectorDB
-   ```bash
-   python3 setup_vector_store.py
-   ```
-
 ## Usage
 1. Run the chatbot application using:
     ```bash

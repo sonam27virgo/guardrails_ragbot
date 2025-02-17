@@ -29,7 +29,11 @@ def test_evaluation_set():
     eval_df.to_csv("experiments/evalset_with_response.csv", index = False)
 
 if __name__ == '__main__':
+    ## do this one time only 
+    # from chatbot.dataprep import DataPreProcessor
+    # DataPreProcessor().prepare_data()
 
+    
     # test_entire_pipeline()
     # test_evaluation_set()
 
